@@ -1,0 +1,32 @@
+$text-color: #0B132A;
+
+.helpConatainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    gap: 5rem;
+    font-size: 1.5rem;
+    color: $text-color;
+    .socialMediaLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h2{
+            font-weight: 500;
+        }
+        p{
+            font-weight: 300;
+            span{
+                font-weight: 500;
+            }
+        }
+        a{
+            color: $text-color;
+            text-decoration: none;
+            &:visited :active :link{
+                color: $text-color;
+            }
+        }
+    }
+}

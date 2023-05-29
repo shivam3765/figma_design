@@ -1,0 +1,78 @@
+$text-color : #0B132A;
+$btn-color : #F53838;
+
+.aboutContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    gap: 2rem;
+    .discriptionBox{
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        gap: 5rem;
+        color: $text-color;
+        .discriptionTeg{
+            font-size: 6rem;
+            font-weight: 400;
+            span{
+                font-weight: 700;
+            }
+        }
+        .discription{
+            font-weight: 300;
+            span{
+                font-weight: 500;
+            }
+        }
+        .getStartBtn{
+            border: none;
+            border-radius: 1rem;
+            background-color: $btn-color;
+            width: 250px;
+            height: 50px;
+            color: #fff;
+            box-shadow: 1rem 3rem 7rem $btn-color;
+            cursor: pointer;
+        }
+    }
+    .discriptionImg{
+        height: 30rem;
+        height: 60rem;
+    }
+
+}
+.servicesBox{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    gap: 2rem;
+    box-shadow: .1rem 5rem 5rem #F6F6F6;
+    .service{
+        display: flex;
+        gap: 2rem;
+      
+        .icon{
+            width: 5rem;
+            height: 5rem;
+            background-color: #FFECEC;
+            border-radius: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            color: $btn-color;
+            font-size: 2rem;
+        }
+        p{
+            font-weight: 900;
+            line-height: 2.5rem;
+            font-size: 2rem;
+            span{
+                font-weight: 400;
+            }
+        }
+    }
+}

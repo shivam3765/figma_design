@@ -1,0 +1,47 @@
+$text-color : #0B132A;
+$btn-color : #F53838;
+
+.navContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    color: $text-color;
+    .navLogo{
+        font-size: 1.5rem;
+        font-weight: 500;
+        cursor: pointer;
+        .logoHeading span{
+            font-weight: 900;
+        }
+    }
+    .navOptionsBox{
+        display: flex;
+        gap: 5rem;
+        .nevOptions{
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            font-weight: 500;
+        }
+    }
+    .navButtonsBox{
+        display: flex;
+        gap: 3rem;
+        .navBtn{
+            border: transparent;
+            // border: .2rem solid $btn-color;
+            border-radius: 5rem;
+            padding: .5rem 2rem;
+            background-color: transparent;
+            cursor: pointer;
+            font-weight: 500;
+            &:hover{
+                border: .2rem solid $btn-color;
+                color: $btn-color;
+
+            }
+        }
+    }
+
+}

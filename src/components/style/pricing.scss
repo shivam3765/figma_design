@@ -1,0 +1,71 @@
+$text-color : #0B132A;
+$btn-color : #F53838;
+$right-img : url(../../assets/right.svg);
+
+.prigingContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 6rem;
+    gap: 4rem;
+    font-size: 2rem;
+    color: $text-color;
+    .planCardBox{
+        display: flex;
+        gap: 5rem;
+        .planCard{
+            border: .2rem solid #DDDDDD;
+            border-radius: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6rem;
+            gap: 2rem;
+            &:hover{
+                border: .2rem solid $btn-color;
+            }
+            .cardItems{
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                h2{
+                    font-weight: 700;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2rem;
+                    list-style-image: $right-img;
+                }
+            }
+            .priceBox{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-weight: 500;
+                    span{
+                        font-weight: 300;
+                    }
+                }
+                button{
+                    border: .2rem solid $btn-color;
+                    background-color: transparent;
+                    padding: .8rem 4rem;
+                    border-radius: 5rem;
+                    color: $btn-color;
+                    &:hover{
+                        background-color: $btn-color;
+                        box-shadow: 1rem 2rem 5rem #F5383859;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

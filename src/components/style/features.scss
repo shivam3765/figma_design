@@ -1,0 +1,36 @@
+$text-color : #0B132A;
+$right-icon : url(../../assets/Vector.svg);
+
+.featuresContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    gap: 2rem;
+    padding-top: 7rem;
+    box-shadow: .1rem 5rem 5rem #F6F6F6;
+    .img{
+        width: 60%;
+    }
+    .featuresDiscription{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 2rem;
+        font-weight: 300;
+        color: $text-color;
+        h2{
+            font-size: 6rem;
+            font-weight: 400;
+        }
+        ul{
+            list-style-image: $right-icon;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding-left: 2rem;
+        }
+
+    }
+}
